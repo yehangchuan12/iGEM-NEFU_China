@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>iGEM NEFU_China 2023</title>
+    <link rel="stylesheet" type="text/css" href="../../css/css.css">
+    <style>
+        header {
+            background: url("../../images/B11.jpg");
+            min-height: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        .page-title {
+            padding-top: 10em;
+            padding-bottom: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="normal-nav">
+            <!---- 正常情况下顶部导航栏Navigation bar (normal) -->
+            <div class="logo">
+                <a href="https://idec-teams.github.io/2023_NEFU_China/">
+                    <img id="nav-logo" src="images/IDEC图标.png"
+                        alt="This is our logo, but if you click it, you will return home">
+                </a>
+            </div>
+            <div class="chapters">
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Home
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Human Practice
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Outlook
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Parts
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Team
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="pages/team/mumbers.html" class="dropdown-page cool-link2">
+                            Members
+                        </a>
+                        <a href="pages/team/attributions.html" class="dropdown-page cool-link2">
+                            Attributions
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Project
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/project/contribution.html" class="dropdown-page cool-link2">
+                            Contribution
+                        </a>
+                        <a href="../../pages/project/description.html" class="dropdown-page cool-link2">
+                            Description
+                        </a>
+                        <a href="../../pages/project/design.html" class="dropdown-page cool-link2">
+                            Design
+                        </a>
+                        <a href="../../pages/project/engineering.html" class="dropdown-page cool-link2">
+                            Engineering
+                        </a>
+                        <a href="../../pages/project/hardware.html" class="dropdown-page cool-link2">
+                            Hardware
+                        </a>
+                        <a href="../../pages/project/model.html" class="dropdown-page cool-link2">
+                            Model
+                        </a>
+                        <!-- <a href="static/Supplementary Materials wiki.pdf" class="dropdown-page cool-link2"
+                                                            target="_blank">
+                                                            Supplementary information
+                                                        </a> -->
+
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Experiments
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/experiments/materials.html" class="dropdown-page cool-link2">
+                            Materials
+                        </a>
+                        <a href="../../pages/experiments/notebook.html" class="dropdown-page cool-link2">
+                            Notebook
+                        </a>
+                        <a href="../../pages/experiments/proof.html" class="dropdown-page cool-link2">
+                            Proof
+                        </a>
+                        <a href="../../pages/experiments/protocol.html" class="dropdown-page cool-link2">
+                            Protocol
+                        </a>
+                        <a href="../../pages/experiments/results.html" class="dropdown-page cool-link2">
+                            Results
+                        </a>
+                        <a href="../../pages/experiments/safety.html" class="dropdown-page cool-link2">
+                            Safety
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------ 页面标题PAGE TITLE -------------------->
+        <div class="page-title">
+            <div class="page-title-content" style="margin-top: 5%;">
+                <h1>SAFETY</h1>
+                <!---Page title -->
+            </div>
+        </div>
+    </header>
+    <div class="grid-normal">
+        <div class="introduction grid-normal">
+        </div>
+    </div>
+    <div style="display:none" id="marker" class="triangle-down"> </div>
+    <!------------------ BUTTONS ---------------------------->
+    <div class="buttons">
+    </div>
+    <div class="sections-container">
+        <aside class="sticky">
+            <div id="sub-nav" class="sub-navigation-content">
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#1">Overview</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#2">Laboratory safety</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#3">Configuration list</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#4">Laboratory safety education</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#5">Laboratory system safety</a>
+                </div>
+
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#6">Examples of our all-step protection</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#7">Experimental design security</a>
+                </div>
+
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#8">Hardware security</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#9">Risk analysis of the hardware</a>
+                </div>
+
+                <!--            返回顶部箭头-->
+                <div id="to-top-arrow">
+                    <a title="Back to top" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+                    <!------Chapter Three -->
+                </div>
+            </div>
+        </aside>
+        <div class="carousel">
+            <div class="slider">
+                <!------------------------------ section 1------------------------------------>
+                <div class="right">
+                    <h2 id="1">
+                        Overview
+                    </h2>
+                    <p>
+                        Ensuring safety is the primary prerequisite for any scientific experiment. All the work of the
+                        NEFU_China has
+                        been carried out orderly under the premise to ensure safety. In this section, we present our
+                        safety strategy
+                        from three aspects: laboratory safety, experimental design security and hardware
+                        security.Laboratory safet
+                    </p>
+                    <h2 id="2">
+                        Laboratory safety
+                    </h2>
+                    <p>
+                        Safety of laboratory reagents and instrumentsAll our experiments are carried out in a BL1
+                        laboratory. The
+                        facility is provided with various safety provisions, including washbasins, eye wash stations,
+                        first aid kits,
+                        medical supplies, fire extinguishers and sand. All of the experimental reagents purchased by us
+                        pursue rigorous
+                        safety standards. For example, we chose Goldview as our nucleic acid dye instead of using
+                        ethidium bromide,
+                        which is highly carcinogenic.
+                    </p>
+                    <h2 id="3">
+                        Configuration list
+                    </h2>
+                    <h3>
+                        Table 1
+                    </h3>
+                    <!-- <table class="tab01">
+                        <tbody>
+                            <tr>
+                                <td colspan="1" rowspan="1">No.</td>
+                                <td colspan="1" rowspan="1">Name</td>
+                                <td colspan="1" rowspan="1">Specification</td>
+                                <td colspan="1" rowspan="1">Quantity</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">1</td>
+                                <td colspan="1" rowspan="1">Iodophor disinfectant</td>
+                                <td colspan="1" rowspan="1">Dose</td>
+                                <td colspan="1" rowspan="1">30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">2</td>
+                                <td colspan="1" rowspan="1">Cleaning wipe</td>
+                                <td colspan="1" rowspan="1">Piece</td>
+                                <td colspan="1" rowspan="1">2</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">3</td>
+                                <td colspan="1" rowspan="1">Medical alcohol cotton wipes</td>
+                                <td colspan="1" rowspan="1">Piece (6 cm × 3 cm)</td>
+                                <td colspan="1" rowspan="1">10</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">4</td>
+                                <td colspan="1" rowspan="1">Medical skim cotton ball</td>
+                                <td colspan="1" rowspan="1">5 g/pack</td>
+                                <td colspan="1" rowspan="1">2</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">5</td>
+                                <td colspan="1" rowspan="1">Hydrogen peroxide</td>
+                                <td colspan="1" rowspan="1">100 ml/bottle</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">6</td>
+                                <td colspan="1" rowspan="1">Boric acid solution</td>
+                                <td colspan="1" rowspan="1">Bottle</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">7</td>
+                                <td colspan="1" rowspan="1">Sodium bicarbonate solution</td>
+                                <td colspan="1" rowspan="1">100 ml/bottle</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">8</td>
+                                <td colspan="1" rowspan="1">Band aid</td>
+                                <td colspan="1" rowspan="1">Piece (7.2 cm × 1.9 cm)</td>
+                                <td colspan="1" rowspan="1">30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">9</td>
+                                <td colspan="1" rowspan="1">Medical elastic bandage</td>
+                                <td colspan="1" rowspan="1">Roll (8cm × 400cm)</td>
+                                <td colspan="1" rowspan="1">3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">10</td>
+                                <td colspan="1" rowspan="1">Medical gauze block(small size)</td>
+                                <td colspan="1" rowspan="1">Piece (7.5 cm × 7.5 cm - 8 layers)</td>
+                                <td colspan="1" rowspan="1">5</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">11</td>
+                                <td colspan="1" rowspan="1">Triangular bandage</td>
+                                <td colspan="1" rowspan="1">Pack (96 cm × 96 cm × 136 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">12</td>
+                                <td colspan="1" rowspan="1">Medical ventilatory tape</td>
+                                <td colspan="1" rowspan="1">Roll (1.25 cm × 450 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">13</td>
+                                <td colspan="1" rowspan="1">Medical application(small size)</td>
+                                <td colspan="1" rowspan="1">Piece (6 cm × 7 cm)</td>
+                                <td colspan="1" rowspan="1">6</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">14</td>
+                                <td colspan="1" rowspan="1">Buckle tourniquet</td>
+                                <td colspan="1" rowspan="1">Roll (2.5 cm × 40 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">15</td>
+                                <td colspan="1" rowspan="1">Burn application</td>
+                                <td colspan="1" rowspan="1">Pack (60 cm × 40 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">16</td>
+                                <td colspan="1" rowspan="1">Burn application</td>
+                                <td colspan="1" rowspan="1">Roll (2.5 cm × 40 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">17</td>
+                                <td colspan="1" rowspan="1">Eye lotion</td>
+                                <td colspan="1" rowspan="1">250 ml/bottle</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">18</td>
+                                <td colspan="1" rowspan="1">Instantaneous cold ice bag</td>
+                                <td colspan="1" rowspan="1">160 g/pack</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">19</td>
+                                <td colspan="1" rowspan="1">Artificial cell healing</td>
+                                <td colspan="1" rowspan="1">5 g/branch</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">20</td>
+                                <td colspan="1" rowspan="1">Breathing mask</td>
+                                <td colspan="1" rowspan="1">Piece (20 cm × 20 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">21</td>
+                                <td colspan="1" rowspan="1">First aid blanket</td>
+                                <td colspan="1" rowspan="1">Piece (160 cm × 210 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">22</td>
+                                <td colspan="1" rowspan="1">Disposable medical rubber</td>
+                                <td colspan="1" rowspan="1">Box</td>
+                                <td colspan="1" rowspan="1">5</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">23</td>
+                                <td colspan="1" rowspan="1">Plastic application material</td>
+                                <td colspan="1" rowspan="1">Set</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">24</td>
+                                <td colspan="1" rowspan="1">Safety pin</td>
+                                <td colspan="1" rowspan="1">Pack (10 pieces)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">25</td>
+                                <td colspan="1" rowspan="1">Round head scissors</td>
+                                <td colspan="1" rowspan="1">Pair (15 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">26</td>
+                                <td colspan="1" rowspan="1">Flashlight (including battery)</td>
+                                <td colspan="1" rowspan="1">Pair (15 cm)</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">27</td>
+                                <td colspan="1" rowspan="1">High frequency rescue whistle</td>
+                                <td colspan="1" rowspan="1">Set</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">28</td>
+                                <td colspan="1" rowspan="1">First aid manual</td>
+                                <td colspan="1" rowspan="1">Volume</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">29</td>
+                                <td colspan="1" rowspan="1">CD-ROM of first aid knowledge</td>
+                                <td colspan="1" rowspan="1">Piece</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">30</td>
+                                <td colspan="1" rowspan="1">PE bag-G type</td>
+                                <td colspan="1" rowspan="1">Bag</td>
+                                <td colspan="1" rowspan="1">4</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">31</td>
+                                <td colspan="1" rowspan="1">After-sales service card</td>
+                                <td colspan="1" rowspan="1">Piece</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">32</td>
+                                <td colspan="1" rowspan="1">BC-L-004A outer box</td>
+                                <td colspan="1" rowspan="1">Box</td>
+                                <td colspan="1" rowspan="1">1</td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                    <p>
+                        Our laboratory abides by Article 35 of Chapter IV of the Biosafety Law of the People’s Republic
+                        of China: An
+                        entity engaged in biotechnology research development, and application activities shall be
+                        responsible for the
+                        security of its biotechnology application, research, development, and adopt biosecurity risk
+                        prevention and
+                        control measures formulate rules of biosecurity training, tracing and inspections, regular
+                        reporting, and other
+                        work, and strengthen process management.
+                    </p>
+                    <h2 id="4">
+                        Laboratory safety education
+                    </h2>
+                    <p>
+                        Before entering the laboratory, all team members must have adequate biological knowledge and
+                        pass the laboratory
+                        safety tests required by the College of Life Sciences. Before conducting any experimental
+                        activity in the
+                        laboratory, all participants must understand the established protocols and procedures associated
+                        with the
+                        experiment. Graduate students and laboratory lecturers provide the guidance and instruction that
+                        are necessary
+                        to impart this knowledge.
+                    </p>
+                    <h2 id="5">
+                        Laboratory system safety
+                    </h2>
+                    <p>
+                        We have established a strict duty system. Every day, the students on duty need to ensure the
+                        laboratory to be
+                        clean and well-organized, dispose all the experimental garbage after work, and strictly check
+                        the switch status
+                        of all experimental instruments before vacating the laboratory. In addition, we routinely carry
+                        out an all-round
+                        cleaning of the laboratory by all the staff.
+                    </p>
+                    <h2 id="6">
+                        Examples of our all-step protection
+                    </h2>
+                    <p>
+                        The laboratory has established dedicated areas for conducting nucleic acid electrophoresis and
+                        protein
+                        electrophoresis. Prior to each experimental operation, researchers wear disposable butyronitrile
+                        gloves, and any
+                        tool that come into contact with the workbench are left there. Besides, 75% alcohol solution
+                        will be sprayed
+                        regularly to clean up research benches.
+
+                        In the context of aseptic operations, it is necessary to ensure that flammable materials are not
+                        brought into
+                        close proximity of an open flame.
+
+                        Ultraviolet sterilization will be carried out on the clean bench before and after
+                        microbiological experimental
+                        operations, such as colony PCR.
+                    </p>
+                    <h2 id="7">
+                        Experimental design security
+                    </h2>
+                    <p>
+                        In this study, Escherichia coli (E. coli) strains DH5α, BL21 and BW25113 were employed as model
+                        organisms. E.
+                        coli is a commonly utilized microorganism in scientific research. We strictly abide by the
+                        laboratory operating
+                        standards to prevent laboratory microbes from escaping into the environment.
+
+                        Our synthetic product, 7-methylxanthine (C7H8N4O2, 7-MX), is one of the natural metabolites of
+                        caffeine (1, 3,
+                        7-trimethylxanthine). Its effectiveness in suppressing myopia and safety of long-term
+                        utilization have been
+                        previously demonstrated.
+
+                        The principle of the DNA operation technique used by us is based on the utilization of IIS
+                        restriction
+                        endonuclease technology, which is a safe and reliable DNA recombination technique. Laboratory
+                        staff strictly
+                        abide by laboratory safety guidelines to prevent any of our genetically modified microorganisms
+                        from polluting
+                        the environment.
+                    </p>
+                    <h2 id="8">
+                        Hardware security
+                    </h2>
+                    <p>
+                        All our work is covered by the White List.
+
+                        The ndm genes come from Pseudomonas aeruginosa CBB5. We improve the original gene and replace
+                        the rare codons
+                        unfavored by E. coli so that it can be well expressed in bacteria with a reduced metabolic
+                        burden.
+                    </p>
+                    <h2 id="9">
+                        Risk analysis of the hardware
+                    </h2>
+
+                    <!-- <table class="tab02">
+                        <tbody>
+                            <tr>
+                                <td colspan="1" rowspan="1">Hardware</td>
+                                <td colspan="1" rowspan="1">Risk Analysis</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">ndmA</td>
+                                <td colspan="1" rowspan="1">Origin from CBB5, no harm to human health and the
+                                    environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">ndmD</td>
+                                <td colspan="1" rowspan="1">Origin from CBB5, no harm to human health and the
+                                    environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">ndnB</td>
+                                <td colspan="1" rowspan="1">Origin from CBB5, no harm to human health and the
+                                    environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">frmB</td>
+                                <td colspan="1" rowspan="1">Origin from CBB5, no harm to human health and the
+                                    environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">frmA</td>
+                                <td colspan="1" rowspan="1">Origin from CBB5, no harm to human health and the
+                                    environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">FDH</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">lac O</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">ndmDt</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">T7 terminator</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">trnB terminator</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">P107 promoter</td>
+                                <td colspan="1" rowspan="1">No harm to human health and the environment.</td>
+                            </tr>
+                        </tbody>
+                    </table> -->
+                    <div class="img">
+                        <img src="../img/03.jpg" style="height: 290px;width: 290px; margin-top: 5px; margin-left: 5px;">
+                    </div>
+                    <div class="img">
+                        <img src="../img/04.jpg" style="height: 290px;width: 290px; margin-top: 5px; margin-left: 5px;">
+                    </div>
+                    <div class="img">
+                        <img src="../img/05.jpg" style="height: 290px;width: 290px; margin-top: 5px; margin-left: 5px;">
+                    </div>
+                    <div style="float: left; margin-top: 20px; height: 200px;">
+                        <span>Fig. 1. First-aid kit</span>
+                        <span>Fig. 2. Remedies and equipment</span>
+                        <span>Fig. 3. Eye bath</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Container">
+        <!--Waves Container-->
+        <waves style="margin-bottom:10%">
+            <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(198,117,40,0.1)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(198,117,40,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(198,117,40,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(198,117,40,0.8)" />
+                </g>
+            </svg>
+            <!--Waves end-->
+    </div>
+    <!---------- 页脚FOOTER ------------>
+    <footer>
+        <div class="c-footer">
+            <div class="u-container">
+                <div class="u-hide-print">
+                    <div class="c-footer__header">
+                    </div>
+                    <div class="c-footer__grid">
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About us</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item">
+                                    This team is composed of enthusiastic students from three different colleges
+                                    and various majors. To spy out the secrets of synthetic biology, a group of
+                                    beginners are looking forward to creating extraordinary experiences and we
+                                    did it.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About topic</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"> The 2023 NEFU_China
+                                    team provides a DNA assembly strategy, which standardizes and
+                                    modularizes the DNA assembly process enough, with high positive rate, so
+                                    that the strategy can be fully adapted to single and repeated mechanical
+                                    operations, and take advantage of mechanization to achieve the assembly
+                                    of a large number of DNA fragments in a short time.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">Contact info</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Email : igem_nefu_china@163.com</a></li>
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Address : Northeast
+                                        Forestry University, Harbin,
+                                        Heilongjiang 150040, P. R. China</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-corporate-footer">
+            <div class="u-container">
+                <img src="../../images/资源 1.png" width="120px" height="120px">
+                <p class="c-corporate-footer__legal">iDEC-2023 NEFU_China</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../../js/jQuery.js" type=text/javascript></script>
+    <script src="../../js/detect.js" type="text/javascript"></script>
+    <script src="../../js/main_javascript.js" type=text/javascript></script>
+    <script src="../../js/MoveContent.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            MoveContentOutside();
+        });
+    </script>
+</body>
+
+</html>

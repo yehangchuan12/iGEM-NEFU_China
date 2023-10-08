@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>iGEM NEFU_China 2023</title>
+    <link rel="stylesheet" type="text/css" href="../../css/css.css">
+    <style>
+        header {
+            background: url("../../images/B11.jpg");
+            min-height: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        .page-title {
+            padding-top: 10em;
+            padding-bottom: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="normal-nav">
+            <!---- 正常情况下顶部导航栏Navigation bar (normal) -->
+            <div class="logo">
+                <a href="https://idec-teams.github.io/2023_NEFU_China/">
+                    <img id="nav-logo" src="images/IDEC图标.png"
+                        alt="This is our logo, but if you click it, you will return home">
+                </a>
+            </div>
+            <div class="chapters">
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Home
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Human Practice
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Outlook
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Parts
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Team
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="pages/team/mumbers.html" class="dropdown-page cool-link2">
+                            Members
+                        </a>
+                        <a href="pages/team/attributions.html" class="dropdown-page cool-link2">
+                            Attributions
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Project
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/project/contribution.html" class="dropdown-page cool-link2">
+                            Contribution
+                        </a>
+                        <a href="../../pages/project/description.html" class="dropdown-page cool-link2">
+                            Description
+                        </a>
+                        <a href="../../pages/project/design.html" class="dropdown-page cool-link2">
+                            Design
+                        </a>
+                        <a href="../../pages/project/engineering.html" class="dropdown-page cool-link2">
+                            Engineering
+                        </a>
+                        <a href="../../pages/project/hardware.html" class="dropdown-page cool-link2">
+                            Hardware
+                        </a>
+                        <a href="../../pages/project/model.html" class="dropdown-page cool-link2">
+                            Model
+                        </a>
+                        <!-- <a href="static/Supplementary Materials wiki.pdf" class="dropdown-page cool-link2"
+                                                            target="_blank">
+                                                            Supplementary information
+                                                        </a> -->
+
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Experiments
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/experiments/materials.html" class="dropdown-page cool-link2">
+                            Materials
+                        </a>
+                        <a href="../../pages/experiments/notebook.html" class="dropdown-page cool-link2">
+                            Notebook
+                        </a>
+                        <a href="../../pages/experiments/proof.html" class="dropdown-page cool-link2">
+                            Proof
+                        </a>
+                        <a href="../../pages/experiments/protocol.html" class="dropdown-page cool-link2">
+                            Protocol
+                        </a>
+                        <a href="../../pages/experiments/results.html" class="dropdown-page cool-link2">
+                            Results
+                        </a>
+                        <a href="../../pages/experiments/safety.html" class="dropdown-page cool-link2">
+                            Safety
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------ 页面标题PAGE TITLE -------------------->
+        <div class="page-title">
+            <div class="page-title-content" style="margin-top: 5%;">
+                <h1>SAFETY</h1>
+                <!---Page title -->
+            </div>
+        </div>
+    </header>
+    <div class="grid-normal">
+        <div class="introduction grid-normal">
+        </div>
+    </div>
+    <div style="display:none" id="marker" class="triangle-down"> </div>
+    <!------------------ BUTTONS ---------------------------->
+    <div class="buttons">
+    </div>
+    <div class="sections-container">
+        <aside class="sticky">
+            <div id="sub-nav" class="sub-navigation-content">
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#1">Overview</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#2">Module 1</a>
+                </div>
+                <!-- <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#3">Gene source</a>
+                </div> -->
+                <!-- <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#4">Production and Construction Design of 7-MXe</a>
+                </div> -->
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#5">Module 2</a>
+                </div>
+
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#6">Two-module interaction system</a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+
+                    <a href="#7">Reference</a>
+                </div>
+                <!--            返回顶部箭头-->
+                <div id="to-top-arrow">
+                    <a title="Back to top" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+                    <!------Chapter Three -->
+                </div>
+            </div>
+        </aside>
+        <div class="carousel">
+            <div class="slider">
+                <!------------------------------ section 1------------------------------------>
+                <div class="one">
+                    <img src="../../static/img/1.jpg" alt="">
+                    <img src="../../static/img/箭头.png" alt="">
+                    <h2 id="1">Overview</h2>
+                    <p>A modular platform was designed and developed to optimize the synthesis of 7-methylxanthine
+                        (7-MX), a compound
+                        known for its potential to alleviate myopia, utilizing caffeine as the substrate.</p>
+                    <p>Nowadays, the significant cost of 7-MX is mainly ascribed to the following two reasons. One
+                        primary reason
+                        pertains to the difficulty associated with chemical synthesis, including the low yield, high
+                        expense and
+                        considerable by-product pollutants. The second reason is that de novo synthesis of 7-MX in yeast
+                        is difficult
+                        and inefficient. The current caffeine degradation technique exhibits a maximum yield of only
+                        0.37g/L.1 We
+                        optimized this platform through a rational design by retrieving caffeine from coffee residues.
+                        This optimization
+                        reduces the costs and enables the effective decaffeination of coffee residues. With
+                        substantially reduced
+                        caffeine content, the generated grounds can be reused for other purposes or safely disposed. All
+                        above is
+                        realized through the following two modules:</p>
+                    <p>In Module 1, we constructed a high-copy plasmid expressing caffeine degradation genes. This
+                        plasmid was
+                        subsequently introduced into the BW25113 strain of Escherichia coli (E. coli) in order to
+                        facilitate the
+                        demethylation of caffeine and subsequently produce 7-MX.</p>
+                    <p>In Module 2, a low-copy plasmid containing the genes for formaldehyde dehydrogenation was
+                        constructed and also
+                        transformed into the BW25113 strain. In this case, we successfully eliminated formaldehyde that
+                        is generated as
+                        a by-product during the demethylation of caffeine to produce 7-MX. Formaldehyde is not only
+                        toxic to our
+                        engineered bacterial hosts, but also harmful to the environment. Besides, this system can also
+                        provide NADH as
+                        the reducing power to the demethylation reaction. </p>
+                    <p>This section outlines the process of designing the two modules, verifying their functions, and
+                        optimizing the
+                        strategy.</p>
+
+                    <h2 id="2">Module 1: the high-copy plasmid highly expressing the Ndm enzymes to convert caffeine to
+                        7-MX
+                    </h2>
+                    <p>7-MX: the first reported methylxanthine compound that alleviates myopia</p>
+                    <p>Methylxanthine compounds mainly come from natural plants, such as Guarana-related products2,
+                        coffee, tea and
+                        various herbal medicines3. They contain a variety of methylxanthine and polyphenols, in which
+                        the most common
+                        methylxanthines are caffeine (1,3,7-trimethylxanthine), theobromine (3,7-dimethylxanthine) and
+                        theophylline
+                        (1,3-domethylxanthine). In addition, many kinds of methylxanthines contain only one methyl
+                        group. In the early
+                        study of deprivation myopia in guinea pigs, 7-MX could eliminate eyeball elongation caused by
+                        morphological
+                        deprivation4. Another report also demonstrated 7-MX’s beneficial effects on deprivation myopia
+                        in rabbits 5
+                        (Fig. 1), which suggested that 7-MX could be potentially used as a drug in the treatment of
+                        myopia. Recent
+                        clinical trials in Denmark further proved that 7-MX was an ideal remedy for myopia alleviation
+                        (Fig. 2).6</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d1.png" alt="">
+                    </div>
+                    <p> <b>Fig. 1.</b> Previously reported inhibitory effects of 7-MX on deprivation myopia of rabbits.4
+                    </p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d2.png" alt="">
+                    </div>
+                    <p> <b>Fig. 2.</b> Previously reported inhibitory effects of 7-MX on progressive myopia. According
+                        to
+                        the
+                        baseline age of
+                        children and the average daily dose of 7-MX, a linear relationship between 7-MX dose and
+                        therapeutic effects was
+                        observed. The best fitting model was used to predict the tracks of children's refractive error
+                        (A) and
+                        axis-oculi length (B).6</>
+
+
+                    <h3>Gene source</h3>
+                    <p>Caffeine degradation genes mainly come from Pseudomonas. Multiple caffeine degradation
+                        pathways
+                        exist, but a
+                        unique one is present in Pseudomonas CBB5, which demethylates caffeine (Fig. 3).7 We chose
+                        to
+                        use the genes in
+                        the CBB5 genome and planned to express NdmA and NdmD in engineered E. coli BW25113. Through
+                        this
+                        pathway,
+                        caffeine can be converted to theobromine, which is then converted to 7-MX by NdmB and NdmD
+                        (Fig.
+                        4).</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d3.png" alt="">
+                    </div>
+                    <p><b>Fig. 3.</b>The main reactions in the caffeine degradation pathway of CBB5 -- demethylation of
+                        caffeine at N-1
+                        position to produce theobromine, demethylation of theobromine at N-3 to generate 7-MX, and
+                        demethylation of 7-MX
+                        at N-7 to create xanthine</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d4.png" alt="">
+                    </div>
+                    <p><b>Fig. 4.</b>Construction of a metabolic pathway in engineered E. coli. NdmA and NdmD
+                        demethylate
+                        caffeine at N-1, and
+                        NdmB and NdmD demethylate theobromine at N-3 to produce 7-MX.</p>
+
+
+                    <h3>Production and Construction Design of 7-MX</h3>
+                    <p>We were originally inspired by the sequence of the Ndm genes in the CBB5 genome (Fig. 5).8
+                    </p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d5.png" alt="">
+                    </div>
+                    <p><b>Fig. 5.</b>Pseudomonas putida CBB5 contains the ndmA, ndmB and ndmD gene cluster.8</p>
+                    <p>We constructed a plasmid containing the ABD circuit with an order of ndmA, ndmB, ndmD driven
+                        by
+                        the common
+                        promoter pBAD (Fig. 6-1), but the 7-MX production by the ABD strain was very low. After our
+                        rational analysis,
+                        we found that the activities of both NdmA and NdmB require the participation of NdmD, and
+                        thus
+                        deduced that the
+                        order of importance of the genes in 7-MX production could likely be ndmD>ndmB>ndmA (please
+                        read
+                        the Engineering
+                        page for more details). Therefore, we constructed a plasmid with the DBA circuit, in which
+                        ndmD
+                        is located
+                        downstream of a strong promoter, pBAD, and ndmB and ndmA are driven by the promoter p107
+                        with
+                        medium strength
+                        (Fig. 6-2).</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d6-1.png" alt="">
+                    </div>
+                    <p><b>Fig. 6-1.</b>The ABD circuit originally constructed according to the order of the CBB5 gene
+                        cluster.
+                    </p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d6-2.png" alt="">
+                    </div>
+                    <p><b>Fig. 6-2.</b>The DBA circuit operated by dual-boot subsystem showing significantly improved
+                        7-MX
+                        production versus
+                        the plasmid in Fig. 6-1.</p>
+                    <p>The high molecular weight of NdmD could be the reason for the low expression of ndmD as an
+                        exogenous protein. We
+                        hoped to improve the yield and solubility of the ndmD protein by optimizing its sequence. We
+                        noted that ndmD
+                        contains a Rieske [2Fe-2S] cluster at the N-terminal, which allows NdmC and NdmE to form a
+                        tight
+                        NdmCDE complex;
+                        however, this part of the sequence is unnecessary in promoting NdmA and NdmB activities.9 In
+                        order to reduce
+                        metabolic pressure and increase the expression of ndmD, we removed the first 266 amino acid
+                        residues of NdmD to
+                        form a truncated protein, ndmDt (for more details, please visit the Parts page). The NdmDt
+                        protein size is only
+                        54.7% of the full-length NdmD. We put a strong promoter (pBAD) upstream of the ndmDt, and a
+                        moderately strong
+                        promoter (p107) upstream of the ndmB and ndmA to construct the DtBA circuit (Fig. 7). After
+                        comparing these
+                        three circuits with different utilizations of promoters, we ultimately selected arabinose to
+                        induce ndmDt
+                        expression and IPTG to induce ndmBA expression. The highly increased yield of 7-MX was
+                        further
+                        realized through
+                        this optimization (Fig. 8)</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d7.png" alt="">
+                    </div>
+                    <p><b>Fig. 7.</b>Gene arrangement in the DtBA circuit.</p>
+                    <p>How to detect it?</p>
+                    <p>We detected methylxanthine by HPLC, using a C8 column and a mixture solution made of water,
+                        methanol and glacial
+                        acetic acid in a ration of 85:15:0.5(v/v) as the mobile phase.</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d8.png" alt="">
+                    </div>
+                    <p><b>Fig. 8.</b>Process of optimization strategies. A. Induction temperature optimization; B.
+                        Evaluation
+                        of the maximum
+                        yield by increasing substrate concentration; C. Optimization of increasing bacterial
+                        density; D.
+                        Optimization of
+                        dissolved oxygen levels.</p>
+
+                    <h2 id="5">Module 2: Construction of the cofactor regeneration system</h2>
+                    <p>We had learned that in the process of caffeine demethylation to produce 7-MX, NADH is used
+                        and
+                        formaldehyde is
+                        released, the latter of which is highly harmful to the human body and may pollute the
+                        environment.10 In
+                        addition, formaldehyde also has severe toxicity in the engineered E. coli cells,11 which may
+                        lead to early cell
+                        death and reduce the transformation efficiency. Therefore, we decided to design a cofactor
+                        regeneration system
+                        based on formaldehyde dehydrogenase to eliminate formaldehyde produced in the demethylation
+                        process and provide
+                        NADH for the reaction.</p>
+                    <h3>frmAB knockout in the E. coli genome</h3>
+                    <p>In the E. coli genome, the formaldehyde dehydrogenase frmA and frmB can convert formaldehyde
+                        to
+                        formic acid.12
+                        Therefore, we first wanted to verify whether the expression of frmAB in the original genome
+                        could be sufficient
+                        to dehydrogenate the formaldehyde produced by caffeine demethylation. Using the homologous
+                        recombination method,
+                        a common approach used in our laboratory, we knocked out the frmAB genes in the E. coli
+                        genome
+                        to get the
+                        BW2-Δfrm strain. Subsequently, we compared the production levels of the wild type and
+                        BW2-Δfrm
+                        strains, which
+                        could indirectly assess the adequacy of endogenously expressed frmAB in eliminating
+                        formaldehyde
+                        in Module 1
+                        (Fig. 9).</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d9.png" alt="">
+                    </div>
+                    <p><b>Fig. 9.</b>Evaluation of caffeine demethylation by the endogenous frmAB in E. coli. Using
+                        the
+                        homologous
+                        recombination method to replace, the frmAB in the genome was replaced by the resistance gene
+                        kana. Meanwhile.
+                        the frmAB gene was transferred into the DtBA plasmid shown in Fig. 6-3. The effect of the
+                        endogenous frmAB is
+                        indirectly verified by comparing the yield of the two strains.</p>
+                    <h3 id=>Verification of formaldehyde dehydrogenase and formate dehydrogenase</h3>
+                    <p>We transformed the low-copy plasmids with frmAB, FDH, or both into the BW25113- Δ frm strain
+                        together with DtBA
+                        (Fig. 10). We hypothesized that formate dehydrogenase FDH alone had minimal effect on the
+                        reaction, and it was
+                        necessary to cooperate with FrmAB to augment the effect. Eventually, we found that the
+                        strains
+                        with the genomic
+                        frmAB, exogenously introduced frmAB and FDH could achieve the maximum 7-MX production
+                        efficiency.</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d10.png" alt="">
+                    </div>
+                    <p><b>Fig. 10.</b>Three low-copy plasmids containing frmAB, FDH or both, and the DtBA plasmids were
+                        double-transformed
+                        into BW-Δfrm to verify their effects.</p>
+                    <p>How to test? </p>
+                    <p>We have learned that formaldehyde causes toxicity to E. coli cells and leads to a decrease in
+                        production yield.
+                        Thus, we used an indirect approach to test the effect of each enzyme on the reaction through
+                        examining the 7-MX
+                        yields of these strains under different conditions by HPLC, as shown in Fig. 9.</p>
+
+                    <h2 id="6">Two-module interaction system</h2>
+                    <p>We hoped to utilize Module 1 for the degradation of caffeine to produce 7-MX, while Module 2
+                        would be used to
+                        eliminate the formaldehyde formed in Module 1. Additionally, Module 2 could produce NADH,
+                        which
+                        would be fed
+                        back into Module 1 to enhance the forward reaction. This approach aimed to establish a
+                        sustainable and efficient
+                        production process with minimal adverse impact on the environment. (Fig. 11).</p>
+                    <div class="figure-container" style="width: 15%;margin: 0 0 0 5%;">
+                        <img src="../../images/design/d11.png" alt="">
+                    </div>
+                    <p><b>Fig. 11.</b>Ultimate goal: two-module interactions.</p>
+
+                    <div class="section" id="section6">
+                        <h2 id="7">Reference:</h2>
+                        <div id="r1" class="literature">[1]Mock MB, Summers RM. Mixed culture biocatalytic production of
+                            the high-value biochemical
+                            7-methylxanthine.
+                            Journal of Biological Engineering. 2023; 17(1).
+                            doi:https://doi.org/10.1186/s13036-022-00316-6
+                        </div>
+                        <div id="r2" class="literature">[2]Santana ÁL, Macedo GA. Health and technological aspects of
+                            methylxanthines and polyphenols
+                            from guarana: A
+                            review. Journal of Functional Foods. 2018; 47:457-468.
+                            doi:https://doi.org/10.1016/j.jff.2018.05.048</div>
+                        <div id="r2" class="literature">[3]Horžić D, Komes D, Belščak A, Ganić KK, Iveković D, Karlović
+                            D. The composition of
+                            polyphenols
+                            and
+                            methylxanthines in teas and herbal infusions. Food Chemistry. 2009; 115(2):441-448.
+                            doi:https://doi.org/10.1016/j.foodchem.2008.12.022</div>
+                        <div id="r2" class="literature">[4]Cui D, Trier K, Zeng J, et al. Effects of 7-methylxanthine on
+                            the sclera in form
+                            deprivation
+                            myopia in guinea
+                            pigs. Acta Ophthalmologica. 2009; 89(4):328-334.
+                            doi:https://doi.org/10.1111/j.1755-3768.2009.01688.x</div>
+                        <div id="r2" class="literature">[5]ie H, Huo L, Yang X, et al. Effects of 7-methylxanthine on
+                            form-deprivation myopia in
+                            pigmented rabbits.N
+                            International Journal of Ophthalmology. 2012; 5(2).
+                            doi:https://doi.org/10.3980/j.issn.2222-3959.2012.02.03</div>
+                        <div id="r2" class="literature">[6]Trier K, Cui D, Ribel-Madsen S, Guggenheim J. Oral
+                            administration of caffeine metabolite
+                            7-methylxanthine is
+                            associated with slowed myopia progression in Danish children. The British Journal of
+                            Ophthalmology. Published
+                            online August 22, 2022:bjophthalmol–2021-320920. doi:https://doi.org/10.1136/bjo-2021-320920
+                        </div>
+                        <div id="r2" class="literature">[7]Summers RM, Gopishetty S, Mohanty SK, Subramanian M. New
+                            genetic insights to consider
+                            coffee
+                            waste as feedstock
+                            for fuel, feed, and chemicals. Central European Journal of Chemistry. 2014;
+                            12(12):1271-1279.
+                            doi:https://doi.org/10.2478/s11532-014-0550-2</div>
+                        <div id="r2" class="literature">[8]Summers RM, Seffernick JL, Quandt EM, Yu CL, Barrick JE,
+                            Subramanian MV. Caffeine Junkie:
+                            an
+                            Unprecedented
+                            Glutathione S-Transferase-Dependent Oxygenase Required for Caffeine Degradation by
+                            Pseudomonas
+                            putida CBB5.
+                            Journal of Bacteriology. 2013; 195(17):3933-3939. doi:https://doi.org/10.1128/jb.00585-13
+                        </div>
+                        <div id="r2" class="literature">[9]El-Masri HA, Mumtaz MM, Choudhary G, Cibulas W, De Rosa CT.
+                            Applications of computational
+                            toxicology methods at
+                            the Agency for Toxic Substances and Disease Registry. International Journal of Hygiene and
+                            Environmental Health.
+                            2002; 205(1-2):63-69. doi:https://doi.org/10.1078/1438-4639-00130</div>
+                        <div id="r2" class="literature">[10]Мицевич EB, Semin YA, Поверенный AM, Suchkov YG. Effect of
+                            formaldehyde and its
+                            aminomethylol
+                            derivatives on
+                            strains ofEscherichia coli with various defects of DNA repair systems. Bulletin of
+                            Experimental
+                            Biology and
+                            Medicine. 1979; 87(5):489-491. doi:https://doi.org/10.1007/bf00806692</div>
+                        <div id="r2" class="literature">[11]11.Gutheil WG, Holmquist B, Vallee BL. Purification,
+                            characterization, and partial sequence
+                            of
+                            the
+                            glutathione-dependent formaldehyde dehydrogenase from Escherichia coli: a class III alcohol
+                            dehydrogenase.
+                            Biochemistry. 1992; 31(2):475-481. doi:https://doi.org/10.1021/bi00117a025</div>
+                        <div id="r2" class="literature">[12]Mock MB, Shelby Brooks Mills, Cyrus A, et al. Biocatalytic
+                            Production and Purification of
+                            the
+                            High-value
+                            Biochemical Paraxanthine. Biotechnology and Bioprocess Engineering. 2022; 27(4):640-651.
+                            doi:https://doi.org/10.1007/s12257-021-0301-0</div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="Container">
+        <!--Waves Container-->
+        <waves style="margin-bottom:10%">
+            <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(198,117,40,0.1)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(198,117,40,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(198,117,40,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(198,117,40,0.8)" />
+                </g>
+            </svg>
+            <!--Waves end-->
+    </div>
+    <!---------- 页脚FOOTER ------------>
+    <footer>
+        <div class="c-footer">
+            <div class="u-container">
+                <div class="u-hide-print">
+                    <div class="c-footer__header">
+                    </div>
+                    <div class="c-footer__grid">
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About us</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item">
+                                    This team is composed of enthusiastic students from three different colleges
+                                    and various majors. To spy out the secrets of synthetic biology, a group of
+                                    beginners are looking forward to creating extraordinary experiences and we
+                                    did it.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About topic</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"> The 2023 NEFU_China
+                                    team provides a DNA assembly strategy, which standardizes and
+                                    modularizes the DNA assembly process enough, with high positive rate, so
+                                    that the strategy can be fully adapted to single and repeated mechanical
+                                    operations, and take advantage of mechanization to achieve the assembly
+                                    of a large number of DNA fragments in a short time.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">Contact info</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Email : igem_nefu_china@163.com</a></li>
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Address : Northeast
+                                        Forestry University, Harbin,
+                                        Heilongjiang 150040, P. R. China</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-corporate-footer">
+            <div class="u-container">
+                <img src="../../images/资源 1.png" width="120px" height="120px">
+                <p class="c-corporate-footer__legal">iDEC-2023 NEFU_China</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../../js/jQuery.js" type=text/javascript></script>
+    <script src="../../js/detect.js" type="text/javascript"></script>
+    <script src="../../js/main_javascript.js" type=text/javascript></script>
+    <script src="../../js/MoveContent.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            MoveContentOutside();
+        });
+    </script>
+</body>
+
+</html>

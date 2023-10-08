@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>iGEM NEFU_China 2023</title>
+    <link rel="stylesheet" type="text/css" href="../../css/css.css">
+    <style>
+        header {
+            background: url("../../images/B11.jpg");
+            min-height: 50%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        .page-title {
+            padding-top: 10em;
+            padding-bottom: 1.5em;
+        }
+
+        /* footer的样式 */
+        .contact-icon {
+            display: flex;
+            align-items: center;
+            /*font-size: 3em;*/
+            color: white;
+        }
+
+        .contact-icon a {
+            color: white;
+        }
+
+        .contact-icon i {
+            font-size: 3em;
+        }
+
+        .t {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="skip-main" href="#slide1-chapter1">Skip to main content</a>
+    <header>
+        <nav id="normal-nav">
+            <!---- 正常情况下顶部导航栏Navigation bar (normal) -->
+            <div class="logo">
+                <a href="https://idec-teams.github.io/2023_NEFU_China/">
+                    <img id="nav-logo" src="images/IDEC图标.png"
+                        alt="This is our logo, but if you click it, you will return home">
+                </a>
+            </div>
+            <div class="chapters">
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Home
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Human Practice
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Outlook
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="https://idec-teams.github.io/2023_NEFU_China/">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Parts
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Team
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="pages/team/mumbers.html" class="dropdown-page cool-link2">
+                            Members
+                        </a>
+                        <a href="pages/team/attributions.html" class="dropdown-page cool-link2">
+                            Attributions
+                        </a>
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Project
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/project/contribution.html" class="dropdown-page cool-link2">
+                            Contribution
+                        </a>
+                        <a href="../../pages/project/description.html" class="dropdown-page cool-link2">
+                            Description
+                        </a>
+                        <a href="../../pages/project/design.html" class="dropdown-page cool-link2">
+                            Design
+                        </a>
+                        <a href="../../pages/project/engineering.html" class="dropdown-page cool-link2">
+                            Engineering
+                        </a>
+                        <a href="../../pages/project/hardware.html" class="dropdown-page cool-link2">
+                            Hardware
+                        </a>
+                        <a href="../../pages/project/model.html" class="dropdown-page cool-link2">
+                            Model
+                        </a>
+                        <!-- <a href="static/Supplementary Materials wiki.pdf" class="dropdown-page cool-link2"
+                                                            target="_blank">
+                                                            Supplementary information
+                                                        </a> -->
+
+                    </div>
+                </div>
+                <div class="dropdown-menu cool-link">
+                    <a class="chapter-nav " href="#">
+                        <div class="chapter-content">
+                            <div class="chapter-title active ">
+                                Experiments
+                            </div>
+                            <div class="chapter-icon">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="../../pages/experiments/materials.html" class="dropdown-page cool-link2">
+                            Materials
+                        </a>
+                        <a href="../../pages/experiments/notebook.html" class="dropdown-page cool-link2">
+                            Notebook
+                        </a>
+                        <a href="../../pages/experiments/proof.html" class="dropdown-page cool-link2">
+                            Proof
+                        </a>
+                        <a href="../../pages/experiments/protocol.html" class="dropdown-page cool-link2">
+                            Protocol
+                        </a>
+                        <a href="../../pages/experiments/results.html" class="dropdown-page cool-link2">
+                            Results
+                        </a>
+                        <a href="../../pages/experiments/safety.html" class="dropdown-page cool-link2">
+                            Safety
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------ 页面标题PAGE TITLE -------------------->
+        <div class="page-title">
+            <div class="page-title-content" style="margin-top: 5%;">
+                <h1>RESULT</h1>
+                <!---Page title -->
+            </div>
+        </div>
+    </header>
+    <div class="grid-normal">
+        <div class="introduction grid-normal">
+        </div>
+    </div>
+    <div style="display:none" id="marker" class="triangle-down"> </div>
+    <!------------------ BUTTONS ---------------------------->
+    <div class="buttons">
+    </div>
+    <div class="sections-container">
+        <aside class="sticky">
+            <div id="sub-nav" class="sub-navigation-content">
+                <div class="sub-navigation-chapter cool-link2">
+                    <a href="#1">
+                        <p>Mediumn</p>
+                    </a>
+                </div>
+                <div class="sub-navigation-chapter cool-link2">
+                    <a href="#2">
+                        <p>Molecular biology</p>
+                    </a>
+                </div>
+
+                <div class="sub-navigation-chapter cool-link2">
+                    <a href="#3">
+                        <p>Fermentation</p>
+                    </a>
+                </div>
+
+        </aside>
+        <div class="carousel">
+            <div class="slider">
+                <!------------------------------ section 1------------------------------------>
+                <section class="slide-sections">
+
+                    <div class="right">
+                        <h2 id="1">
+                            Medium
+                        </h2>
+                        <h4>
+                            1. LB (100mL)
+                        </h4>
+                        <img src="../img/c1.png" style="max-width:100%; max-height:100%;">
+                        <h4>
+                            2.ZY (96ml)
+                        </h4>
+                        <img src="../img/c2.png" style="max-width:100%; max-height:100%;">
+
+                        <h2 id="2">
+                            Molecular biology
+                        </h2>
+                        <h3>
+                            1.PCR
+                        </h3>
+                        <img src="../img/c3.png" style="max-width:100%; max-height:100%;">
+                        <h3>
+                            2. Agarose gel electrophoresis
+                        </h3>
+                        <p>
+                            1. Prepare an agarose gel and heat in a microwave for 2-4 minutes until the agarose is
+                            dissolved; add
+                            1/10000 concentration of Goldview mix thoroughly.<br>
+                            2. Pour the gel onto a taped plate with casting combs in place. Allow 20-30 minutes for
+                            solidification.<br>
+                            3. Carefully remove the gel casting combs and place the gel in a horizontal
+                            electrophoresis apparatus.
+                            Add 1X TAE electrophoresis buffer to the reservoirs until the buffer covers the agarose
+                            gel.<br>
+                            4. Mix the agarose gel loading dye and DNA sample and load them into the wells.
+                            Electrophorese the gel
+                            at 150-200 mA until the required separation has been achieved, usually 0.5-1 hour.<br>
+                            5. Visualize the electrophoresis results under UV light.</p>
+                        <h3>
+                            3. PCR product purification
+                        </h3>
+                        <h4>
+                            1. Add CP Buffer to the PCR products in the 1.5 mL microcentrifuge tube.<br>
+                            2. Insert a HiBind® DNA minutes Column in a 2 mL Collection Tube.<br>
+                            3. Add no more than 700 μL solution from Step 1 to the column.<br>
+                            4. Centrifuge at 15,000 x g for one minute at room temperature. Discard the filtrate
+                            and reuse the
+                            collection tube.<br>
+                            5. Add 700μL DNA Wash Buffer.<br>
+                            6. Centrifuge at 15,000 x g for one minute at room temperature. Discard the filtrate
+                            and reuse the
+                            collection tube.<br>
+                            7. Repeat step 5 and step 6.<br>
+                            8. Centrifuge the empty column for two minutes at maximum speed (15000 x g) to dry
+                            the column
+                            matrix. Discard the filtrate and reuse the collection tube.<br>
+                            9. Transfer the column to a clean 1.5 mL microcentrifuge tube.<br>
+                            10. Dry at 55-60℃ for 5 minutes.<br>
+                            11. Add 30μL double distilled water or Elution Buffer and centrifuge at maximum
+                            speed (15000 x g)
+                            for 1 minute.
+                        </h4>
+                        <h3>
+                            4.Extraction of DNA from agarose gel
+                        </h3>
+                        <h4>
+                            1.Take the column and put it on ice to activate it.<br>
+                            2.When the target band was sufficiently separated by agarose gel electrophoresis,
+                            the DNA fragment
+                            of interest was carefully excised using a clean, sharp scalpel while removing excess
+                            agarose. Put
+                            the gel slice in the 1.5 mL microcentrifuge tube and add the XP2 Binding Buffer.
+                            Incubate at 50-60°C
+                            for seven minutes or until the gel completely melts. Vortex or shake the tube every
+                            2-3 minutes.<br>
+                            3.Insert a HiBind® DNA minutes Column in a 2 mL Collection Tube.<br>
+                            4.Add no more than 700μL DNA/agarose solution from Step 2 to the column.<br>
+                            5.Centrifuge at 10,000 x g for one minute at room temperature. Discard the filtrate
+                            and reuse the
+                            collection tube.<br>
+                            6.Add 300 µL XP2 Binding Buffer.<br>
+                            7.Centrifuge at maximum speed (≥13,000 x g) for one minute at room temperature.
+                            Discard the filtrate
+                            and reuse the collection tube.<br>
+                            8.Add 700μL SPW Buffer. <br>
+                            9.Centrifuge at maximum speed for one minute at room temperature. Discard the
+                            filtrate and reuse the
+                            collection tube.<br>
+                            10.Centrifuge the empty column for two minutes at maximum speed to dry the column
+                            matrix. Discard
+                            the filtrate and reuse the collection tube.<br>
+                            11.Transfer the column to a clean 1.5 mL microcentrifuge tube.<br>
+                            12.Dry at 55-60℃ for 5 minutes.<br>
+                            13.Add 30μL double distilled water or Elution Buffer and centrifuge at maximum speed
+                            (15000 x g) for
+                            1 minute.
+                        </h4>
+                        <h3>
+                            5.Golden Gate
+                        </h3>
+                        <img src="../img/c4.png" style="max-width:100%; max-height:100%;">
+                        <h3>
+                            6.Chemical Transformation
+                        </h3>
+                        <h4>
+                            1.Thaw the competent cells on the ice for 10 minutes to let the suspension thaw.
+                            <br>
+                            2.Mix 100μl competent cells with about 10μL DNA.<br>
+                            3.Incubate on ice for 10~20 minutes.<br>
+                            4.Heat shock at 42℃ for 45 seconds in the water bath.<br>
+                            5.Incubate on ice for 2 minutes.<br>
+                            6.Add 500μL LB medium into the mixture of cells and DNA and mix well. <br>
+                            7.Incubate at the appropriate temperature for 0.75~1 hour, shaking at 200 rpm. <br>
+                            8.Centrifuge at 4000rpm for 1minute 4000rpm, Room temperature.<br>
+                            9.Remove 500μL of supernatant and mix the remaining liquid.<br>
+                            10.Select the appropriate culture medium for coating.
+                        </h4>
+                        <h3>
+                            7.Electroporation
+                        </h3>
+                        <h4>
+                            This protocol is based on the MicroPulserTM Electroporation Apparatus Operating
+                            Instructions and
+                            Applications Guide.<br>
+                            1.Wash the 0.1 or 0.2 cm electroporation cuvette (store in 75% ethanol) with tap
+                            water once and
+                            ddH2O two times and dry in the oven.<br>
+                            2.Place the electroporation cuvette on the ice and use UV to disinfect for 20
+                            minutes.<br>
+                            3.Mix 25μL electrocompetent cells with 1 to 2μL of DNA (total DNA concentration less
+                            than ten ng/mL,
+                            maximum 25 ng). Mix well and incubate on ice for 1 minute.<br>
+                            4.Set the MicroPulser to "Ec1" when using the 0.1 cm cuvettes. Set it to "Ec2" or
+                            "Ec3" using the
+                            0.2 cm cuvettes.<br>
+                            5.Transfer the mixture of cells and DNA to a cold electroporation cuvette and tap
+                            the suspension to
+                            the bottom. Place the cuvette in the chamber slide. Push the slide into the chamber
+                            until the
+                            cuvette is seated between the contacts in the base of the chamber. Pulse once.<br>
+                            6.Remove the cuvette from the chamber and immediately add 1 mL of SOC medium to the
+                            cuvette. Quickly
+                            but gently resuspend the cells with an eppendoff.<br>
+                            7.Please transfer the cells to the medium as soon as possible.<br>
+                            8.Transfer the cell suspension to a 1.5 mL polypropylene microfuge tube and incubate
+                            at 37℃ for 1
+                            hour, shaking at 200 rpm, 37℃.
+                            9.Check and record the pulse parameters. The time constant should be close to 5
+                            milliseconds.<br>
+                            10.Plate on selective LB or SOB medium and inverted culture for 14~16 hours.
+                        </h4>
+                        <h3>
+                            8.Colony PCR
+                        </h3>
+                        <img src="../img/c5.png" style="max-width:100%; max-height:100%;">
+
+                        <h3>
+                            9.Enzyme cutting
+                        </h3>
+                        <img src="../img/c6.png">
+                        <h3>
+                            10.Plasmid Extraction
+                        </h3>
+                        <h4>
+                            1.Isolate a single colony from a freshly streaked selective plate and inoculate a 5
+                            mL LB medium
+                            culture containing the appropriate selective antibiotic. Incubate for ~12-16 hours
+                            at 37°C with
+                            vigorous shaking (~ 300 rpm). <br>
+                            2.Centrifuge at 10,000 x g for one minute at room temperature. <br>
+                            3.Decant or aspirate and discard the culture media. <br>
+                            4.Add 250 µL Solution I/RNase A. Vortex or pipet up and down to mix thoroughly.
+                            Complete
+                            resuspension of cell pellets is vital for obtaining good yields. <br>
+                            5.Transfer suspension into a new 1.5 mL microcentrifuge tube. <br>
+                            6.Add 250 µL Solution II. Invert and gently rotate the tube several times to obtain
+                            a clear lysate.
+                            A 2-3minute incubation may be necessary. <br>
+                            7.Add 350 µL Solution III. Immediately invert several times until a flocculent white
+                            precipitate
+                            forms. <br>
+                            8.Centrifuge at maximum speed (≥13,000 x g) for ten minutes. A compact white pellet
+                            will form.
+                            Promptly proceed to the next step. <br>
+                            9.Insert a HiBind® DNA minutes Column into a 2 mL Collection Tube. <br>
+                            10.Transfer the cleared supernatant from Step 8 by CAREFULLY aspirating it into the
+                            HiBind® DNA
+                            minutes Column. Be careful not to disturb the pellet and that no cellular debris is
+                            transferred to
+                            the HiBind® DNA minutes Column.<br>
+                            11.Centrifuge at maximum speed for one minute. <br>
+                            12.Discard the filtrate and reuse the collection tube. <br>
+                            13.Add 500 µL HBC Buffer. <br>
+                            14.Centrifuge at maximum speed for one minute. <br>
+                            15.Discard the filtrate and reuse the collection tube. <br>
+                            16.Add 700 µL DNA Wash Buffer. <br>
+                            17.Centrifuge at maximum speed for one minute. <br>
+                            18.Discard the filtrate and reuse the collection tube. <br>
+                            19.Repeat Steps 16-18 for a second DNA Wash Buffer wash step.<br>
+                            20.Centrifuge the empty HiBind® DNA minutes Column for 2 minutes at maximum speed to
+                            dry the column
+                            matrix. <br>
+                            21.Transfer the HiBind® DNA minutes Column to a clean 1.5 mL microcentrifuge tube.
+                            <br>
+                            22.Add 30μL double distilled water or Elution Buffer directly to the center of the
+                            column membrane.
+                            <br>
+                            23.Centrifuge at maximum speed for one minute. <br>
+                            24.Perform second elution.<br>
+                            25.Store DNA at -20°C
+                        </h4>
+                        <h3>
+                            11.The genome of E. coli Extraction
+                        </h3>
+                        <h4>
+                            1.Culture bacteria in LB media to log-phase. (Overnight culture can be used in many
+                            cases.)<br>
+                            2.Centrifuge no more than 3 mL culture or 1 x 109 cells at 4,000 x g for ten minutes
+                            at room
+                            temperature. <br>
+                            3.Aspirate and discard the media.<br>
+                            4.Add 100 μL TE Buffer. Vortex to completely resuspend the pellet.<br>
+                            5.Add 10 μL Lysozyme. E.Z.N.A.® Bacterial DNA Protocol<br>
+                            6.Incubate at 37°C for 10minutes.<br>
+                            7.Add 100 μL BTL Buffer and 20 μL Proteinase K Solution. Vortex to mix
+                            thoroughly.<br>
+                            8.Incubate at 55°C in a shaking water bath.<br>
+                            9.Add five μL RNase A. Invert the tube several times to mix.<br>
+                            10.Incubate at room temperature for five minutes. <br>
+                            11.Centrifuge at 10,000 x g for two minutes to pellet any undigested material.<br>
+                            12.Transfer the supernatant to a new 1.5 mL microcentrifuge tube. Do not disturb the
+                            pellet.<br>
+                            13.Add 220 μL BDL Buffer. Vortex to mix.<br>
+                            14.Incubate at 65°C for 10 minutes.<br>
+                            15.Add 220 μL 100% ethanol. Vortex for 20 seconds at maximum speed to mix
+                            thoroughly.<br>
+                            16.Insert a HiBind® DNA minutes Column into a 2 mL Collection Tube.<br>
+                            17.Transfer the entire sample to the HiBind® DNA minutes Column, including any
+                            precipitate <br>
+                            18.that may have formed.<br>
+                            19.Centrifuge at 10,000 x g for 1 minute.<br>
+                            20.Discard the filtrate and the collection tube. <br>
+                            21.Insert the HiBind® DNA minutes Column into a new 2 mL Collection Tube.<br>
+                            22.Add 500 µL HBC Buffer.<br>
+                            23.Centrifuge at 10,000 x g for 1 minute.<br>
+                            24.Discard the filtrate and reuse the collection tube.<br>
+                            25.Add 700 μL DNA Wash Buffer. <br>
+                            26.Centrifuge at 10,000 x g for 1 minute.<br>
+                            27.Discard the filtrate and reuse the collection tube.E.Z.N.A.®<br>
+                            28.Repeat Steps 24-26 for a second DNA Wash Buffer wash step. <br>
+                            29.Centrifuge the empty HiBind® DNA minutes Column at maximum speed (≥10,000 x g)
+                            for two minutes to
+                            dry the column.<br>
+                            30.Insert the HiBind® DNA minutes Column into a new nuclease-free 1.5 mL
+                            microcentrifuge tube.<br>
+                            31.Add 50-100 μL Elution Buffer heated at 65°C to the HiBind® DNA minutes
+                            Column.<br>
+                            32.Let sit for 3 to 5 minutes at room temperature.<br>
+                            33.Centrifuge at 10,000 x g for 1 minute to elute the DNA.<br>
+                            34.Repeat Steps 30-32 for a second elution step. <br>
+                            35.Store eluted DNA at -20°C.<br>
+                        </h4>
+                        <h3>
+                            12.SDS-PAGE
+                        </h3>
+                        <h4>
+                            1.Gel preparation:
+                            <br>Two electrophoretic glass plates are used to make vertical grooves (no glue
+                            leakage) placed
+                            vertically. Pour the prepared separation gel solution into the non-ionic water;
+                            after the gel
+                            gathers, pour out the non-ionic water, dry it with absorbent paper, pour in the
+                            concentrated glue,
+                            and then insert the comb.
+                            <br>2.Sample preparation:
+                            <br>Add 1.8 mL ddw to the colorimetric plate, take 200μl bacteria liquid, and
+                            determine OD600.
+                            Divide six by the measured OD value; the milliliters of bacteria should be taken for
+                            crushing. The
+                            bacterial liquid was taken into the EP tube and centrifuged at 4200 rpm for 5
+                            minutes. Discard the
+                            liquid, centrifuge for a short time, and absorb the liquid with a white gun. 600μl
+                            ddw was used for
+                            heavy suspension of bacteria. The EP tube is floated in a beaker containing a
+                            mixture of ice and
+                            water, and the ultrasonic wave is broken. The project No. 1, No. 2 is changed into a
+                            4-frame rod
+                            (when changing, the rear knob of the instrument is adjusted at the same time), the
+                            bottom of the rod
+                            is 0.5cm from the bottom of the EP tube, the power is 20%, the ultrasonic opening
+                            time is 7s, the
+                            closing time is 5s, and the working time is 5minutes (if the effect is not good, the
+                            5minutes can be
+                            broken again). 10000rpm centrifugation 10minutes. Take the supernatant of 50μL into
+                            another EP tube,
+                            discard the supernatant (or save) T for a short period of centrifugation, and absorb
+                            the liquid with
+                            a white gun. 600μL ddw was used to resuscitate. Take the 50μL precipitate into
+                            another EP tube. Each
+                            sample was added with 10μL 6X Protein loading (containing B-hydrophobic ethanol) and
+                            preserved at
+                            four℃.
+                            <br>3. Remove the gel plate and immerse it in Coomassie brilliant blue dye after
+                            dyeing and
+                            electrophoresis. Microwave oven until boiling, plate shaker speed 30, shake 20-25
+                            minutes.
+                            <br>4. Clean the gel with distilled water and add the decolorizing solution.
+                            Microwave oven until
+                            close to boiling, plate shaker speed 30, shake 20 minutes. Replace the decolorizing
+                            solution and
+                            repeat this step until the decolorization is complete.
+                        </h4>
+                        <h2 id="3">
+                            Fermentation
+                        </h2>
+                        <h3>
+                            1.Small system fermentation <br>1.Induction
+                        </h3>
+                        <h4>
+                            1.The bacteria in the cryogenic storage tube were inoculated into 5mL LB for
+                            activation 8 to 12h in
+                            advance and used to configure the ZYM-5052 medium.
+                            <br>2.Configure ZYM-5052:
+                        </h4>
+                        <img src="../img/c7.png">
+                        <h4>
+                            Place ZYM-5052 at 37℃ at 150 to 200 rpm for about one hour and grow to an OD600 of
+                            0.4 to 0.8.
+                            <br>3. Remove the bacteria from the shaker and cool the shaker to 18℃. Add 20%
+                            arabinose (final
+                            concentration 0.2%) and IPTG (final concentration 1mM).
+                            <br>4. Induction at 150~200 rpm at 18℃ for about 50 hours.
+                        </h4>
+                        <h3>
+                            2. Whole-cell catalysis
+                        </h3>
+                        <h4>
+                            1.The bacteria were removed and placed on ice at the end of induction.
+                            <br>2.Determines the OD600 of each sample of bacteria and records.
+                            <br>3.Take several 10mL centrifuge tubes, put the corresponding OD into the tube,
+                            and centrifuge at
+                            4200 rpm for 10 minutes as far as possible.
+                            <br>4.Discard the supernatant and put it on ice.
+                            <br>5.Preparation of fermentation broth: Use substrate mother liquor and 50mM
+                            Tris-HCl to make
+                            fermentation broth in a particular proportion.
+                            <br>6.Add 1mL fermentation broth to each 10mL centrifuge tube to resuspend the
+                            gentle bacteria.
+                            <br>7.Put the centrifuge tube into 30℃for fermentation at 200rpm for 12～18h or
+                            sample at regular
+                            intervals.
+                            <br>2. Whole-cell catalysis
+                            <br>1.The bacteria were removed and placed on ice at the end of induction.
+                            <br>2.Determines the OD600 of each sample of bacteria and records.
+                            <br>3.Take several 10mL centrifuge tubes, put the corresponding OD into the tube,
+                            and centrifuge at
+                            4200 rpm for 10 minutes as far as possible.
+                            <br>4.Discard the supernatant and put it on ice.
+                            <br>5.Preparation of fermentation broth: Use substrate mother liquor and 50mM
+                            Tris-HCl to make
+                            fermentation broth in a particular proportion.
+                            <br>6.Add 1mL fermentation broth to each 10mL centrifuge tube to resuspend the
+                            gentle bacteria.
+                            <br>7.Put the centrifuge tube into 30℃for fermentation at 200rpm for 12～18h or
+                            sample at regular
+                            intervals.
+                        </h4>
+                        <h3>
+                            3.HPLC detected Methylxanthine
+                        </h3>
+                        <h4>
+                            ①Detection of 7-methylxanthine and theobromine:
+                            <br>1.The column was assembled and rinsed with 100% acetonitrile for 20-60 minutes
+                            until the
+                            baseline was stable. The column was equilibrated with methanol: water: glacial
+                            acetic acid
+                            (15:85:0.5 v/v) at a flow rate of 1mL/minute for 30 minutes until the baseline was
+                            stable.
+                            <br>2. Injection volume 10μL: The detection wavelength was 280nm. The temperature
+                            was 35℃. Detection
+                            gradient 0-20 minutes methanol: water: glacial acetic acid (15:85:0.5 v/v) flow rate
+                            1mL/minutes;
+                            The flow rate of 100% acetonitrile was 1mL/minutes for 20~30minutes; 30~38minutes
+                            methanol: water:
+                            glacial acetic acid (15:85:0.5 v/v) flow rate 1mL/minutes.
+                            <br>②Caffeine detection:
+                            <br>1.The column was assembled and rinsed with 100% acetonitrile for 20-60 minutes
+                            until the
+                            baseline was stable. The column was equilibrated with methanol: water: glacial
+                            acetic acid
+                            (15:85:0.5 v/v) at a flow rate of 1mL/minute for 30 minutes until the baseline was
+                            stable.
+                            <br>2.Injection volume 10μL: The detection wavelength was 280nm. The temperature was
+                            35℃. Methanol:
+                            water: glacial acetic acid (15:85:0.5 v/v) at a flow rate of 1mL/minute.
+                        </h4>
+                        <h3>
+                            4. Obtain caffeine solution in coffee grounds
+                        </h3>
+                        <h4>
+                            50g/L coffee grounds turbidity was prepared, and water was added to maintain the
+                            volume. After
+                            boiling, the mixture was stirred to cool down, and the cycle was 3 to 5 times. After
+                            natural
+                            cooling, water was added to stabilize the volume, the pH was adjusted to suitable
+                            conditions,
+                            filtered, and packaged, and HPLC detected the caffeine content
+                        </h4>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="Container">
+        <!--Waves Container-->
+        <waves style="margin-bottom:10%">
+            <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,192,203,0.7)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.1)" />
+                </g>
+            </svg>
+            <!--Waves end-->
+    </div>
+    <!---------- 页脚FOOTER ------------>
+    <footer>
+        <div class="c-footer">
+            <div class="u-container">
+                <div class="u-hide-print">
+                    <div class="c-footer__header">
+                    </div>
+                    <div class="c-footer__grid">
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About us</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item">
+                                    This team is composed of enthusiastic students from three different colleges
+                                    and various majors. To spy out the secrets of synthetic biology, a group of
+                                    beginners are looking forward to creating extraordinary experiences and we
+                                    did it.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">About topic</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"> The 2023 NEFU_China
+                                    team provides a DNA assembly strategy, which standardizes and
+                                    modularizes the DNA assembly process enough, with high positive rate, so
+                                    that the strategy can be fully adapted to single and repeated mechanical
+                                    operations, and take advantage of mechanization to achieve the assembly
+                                    of a large number of DNA fragments in a short time.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-footer__group">
+                            <h3 class="c-footer__heading">Contact info</h3>
+                            <ul class="c-footer__list">
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Email : igem_nefu_china@163.com</a></li>
+                                <li class="c-footer__item"><a href="#" data-track="click">
+                                        Address : Northeast
+                                        Forestry University, Harbin,
+                                        Heilongjiang 150040, P. R. China</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-corporate-footer">
+            <div class="u-container">
+                <img src="../../images/资源 1.png" width="120px" height="120px">
+                <p class="c-corporate-footer__legal">iDEC-2023 NEFU_China</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jQuery.js" type=text/javascript></script>
+    <script src="../js/detect.js" type="text/javascript"></script>
+    <script src="../js/main_javascript.js" type=text/javascript></script>
+    <script src="../js/MoveContent.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/50c1a3d91f.js" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            MoveContentOutside();
+        });
+    </script>
+</body>
+
+</html>
